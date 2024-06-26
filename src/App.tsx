@@ -1,5 +1,5 @@
 import { useAppDispatch, useAppSelector } from "./hooks/hook";
-import { decrement, decrementValue, increment } from "./redux/features/counterSlice";
+import { decrement, increment } from "./redux/features/counterSlice";
 
 const App = () => {
   //const count = useSelector((state) => state.counter.count)
@@ -18,9 +18,6 @@ const App = () => {
           Decrement
         </button>
 
-        {/* <button onClick={() => dispatch(decrementValue(5))} className="px-3 py-2 rounded-md bg-red-500 text-xl font-semibold text-white">
-          Decrement -5
-        </button> */}
       </div>
       </div>
     </div>
